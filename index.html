@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+
+        <script src="fun.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <title>Guess A Number</title>
+    </head>
+
+    <body>
+
+        <div id="outer" class="flexBox">
+            <div class="myHeader">
+                Guess a number between 1 & 100  <br /> Lets go!
+            </div>
+            <div id="inputAlign">
+                <input type="text" id="inputField">
+                <button 
+                    type="button" 
+                    id="submit_btn"
+                    onclick="processInput()">
+                    Submit Number
+                </button>
+                <br />
+            </div>
+            <div>
+                <button 
+                    type="button" 
+                    class="newNum"
+                    onclick="newNum()">
+                    Create new number
+            </button>
+            </div>
+            <div id="trialCounter" class="counter"></div>
+            <div id="resultAlign" class="resultBox"></div>
+        </div>
+    </body>
+
+
+    
+</html>

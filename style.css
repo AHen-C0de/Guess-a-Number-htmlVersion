@@ -1,0 +1,92 @@
+body {
+    background-color: bisque;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: darkslategrey;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 7px 5px 5px #999;
+  }
+button:hover {
+    background-color: teal;
+}
+button:active {
+background-color: teal;
+box-shadow: 5px 2px 2px #666;
+transform: translateY(4px);
+}
+
+input {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 8px 0;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.myHeader {
+    margin-bottom: 35px !important;
+    font-size: 25px;
+    font-family: "Sans-serif", "Verdana", "serif";
+    font-weight: bold;
+}
+
+.flexBox {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+}
+.flexBox > div {
+    margin-top: 25px;
+}
+
+.resultBox {
+    display: flex;
+    margin-top: 60px !important;
+}
+
+.result {
+    padding: 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: coral;
+    border: 3px solid black;
+    font-size: 30px;
+    font-family: "Fantasy", "Papyrus", "serif"
+}
+
+.invalidStyle {
+    margin-top:5px;
+    font-size: 15px;
+    font-family: "Monospace", "Courier New", "serif";
+    color: red;
+}
+
+.counter {
+    border: 3px solid black;
+    padding: 10px 10px;
+    margin-top:    25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 145px;
+    color: black;
+    font-size: 20px;
+    font-family: "Sans-serif", "Verdana", "serif";
+}
+
+
+
